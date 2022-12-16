@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.hero-bg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.form-container {
+    margin: 2px;
+    background-color: #e0e2e4;
+    /* margin: 1em -1em 1em -1em; */
+}
+
+.all-columns {
+    float: left;
+    width: 33.3%;
+    height: 120px;
+    padding: 13px;
+    text-align: center;
+}
+
+.all-rows {
+    margin: 2px;
+}
+
+/* .all-rows:after {
+    content: "";
+    display: inline-block ;
+    clear: both;
+} */
